@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+
+<suite name="FlightBooking Testing Suite">
+  <test name="Flight Booking Testing">
+    <classes>
+      <!--  <class name="searchForFlightsTest.SearchForFlightsTest"/> -->
+      <class name ="testcases.signInPageTest.SignInPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

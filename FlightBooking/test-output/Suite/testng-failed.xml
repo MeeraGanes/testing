@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Flight Booking Testing(failed)">
+    <classes>
+      <class name="testcases.signInPageTest.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.signInPageTest.SignInPageTest -->
+    </classes>
+  </test> <!-- Flight Booking Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->
